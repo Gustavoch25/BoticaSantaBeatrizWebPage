@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<style> 
+        *{ 
+            font-size: 14px; 
+            font-family: sans-serif; 
+        } 
+        form.registro{ 
+            background: none repeat scroll 0 0 #F1F1F1; 
+            border: 1px solid #DDDDDD; 
+            margin: 0 auto; 
+            padding: 20px; 
+            width: 278px; 
+            box-shadow:0px 0px 20px black;  
+            border-radius:10px;  
+            position:relative; 
+            top:30px; 
+        }
+        form.registro div label { 
+            display: block; 
+            float: left; 
+            line-height: 25px; 
+        } 
+        form.registro div input[type="text"], form.registro div input[type="password"] {
+            border: 1px solid #DCDCDC; 
+            float: right; 
+            padding: 4px; 
+        }
+</style>
+<html>
+<head>
+    <title>Insertar</title>
+    <link rel="stylesheet" href="css/stylelogin.css">
+</head>
+<body>
+    <center>
+        <form action="index.html" class="registro"><br/>
+            <label>Usuario:</label>
+            <input type="text" REQUIRED name="usuario" value=""/><br/><br/>
+            <label>Clave:</label>
+            <input type="password" REQUIRED name="password" value=""/><br/><br/>
+            <label>Repetir clave:</label>
+            <input type="password" REQUIRED name="repassword" value=""/><br/><br/>
+            <input type="submit" value="Aceptar"/>
+        </form>    
+    </center>
+</body>
+</html>

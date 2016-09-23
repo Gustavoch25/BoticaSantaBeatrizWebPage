@@ -1,0 +1,47 @@
+            body{
+                margin: 0px;
+                font-family: Verdana;
+            }
+            header{
+                background-color: white;
+                padding: 10px;
+                /*margin: 20px;
+                border: 2px solid red; */
+                border-bottom: 2px;
+                color: black;
+            }
+            nav{
+                background-color: darkcyan;
+                padding:  8px;
+                color: white;
+            }
+            nav a{
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-right: 10px;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            nav a:hover{
+                color: aqua;
+                text-transform: uppercase;
+            }
+            section{
+                padding: 20px;
+            }
+            footer{
+                border-top: 1px solid #888888;
+                background: #cccccc;
+                padding: 10px;
+                text-align: center;
+            }
+            .home-cover{
+                float: right;
+            }
+            .bloque1{
+                border: 1px solid #888888;
+                padding: 10px;
+                visibility: 10px;
+                border-radius: 10px;
+            }
